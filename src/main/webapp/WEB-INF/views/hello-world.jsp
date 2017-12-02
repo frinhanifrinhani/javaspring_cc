@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	here.
+	<h1>AdoGo Spring...S2</h1>
 </body>
 </html>

@@ -8,8 +8,8 @@ public class HomeController {
 	
 	@RequestMapping("/")
 	public String index() {
-		System.out.println("Carregando produtos");
-		return "killer";
+		//System.out.println("Carregando produtos");
+		return "hello-world";
 		
 	}
 
