@@ -9,7 +9,7 @@ prefix="form"%>
 	<ul>
 		<c:forEach var="error" items="${errors.allErrors}">
 			<li><spring:message code="${error.code}"
-					text="${error.defaultMessage}" /></li>
+					text="${error.code}-${error.field}" /></li>
 		</c:forEach>
 	</ul>
 </spring:hasBindErrors>
